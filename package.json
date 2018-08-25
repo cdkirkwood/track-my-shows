@@ -1,0 +1,28 @@
+{
+  "name": "track-my-shows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run serve",
+    "server": "nodemon server --watch server",
+    "start-dev": "npm run server & npm run client",
+    "install-client": "cd client && npm i",
+    "install-all": "npm i && npm run install-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdkirkwood/track-my-shows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdkirkwood/track-my-shows/issues"
+  },
+  "homepage": "https://github.com/cdkirkwood/track-my-shows#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
