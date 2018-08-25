@@ -5,8 +5,8 @@ const port = 5000
 
 app.use(morgan('dev'))
 
-app.get('/poop', (req, res) => {
-  res.send('whaever')
+app.get('/api/poop', (req, res) => {
+  res.send('whatever')
 })
 
 app.listen(port, () => {
