@@ -1,0 +1,1 @@
+process.env.MOVIE_DB_API_KEY = 'd0029cf6a52224f6f67dc341d4081b19'
